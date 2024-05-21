@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      jsonschema:
-        specifier: ^1.4.1
-        version: 1.4.1
       ts-json-schema-generator:
         specifier: ^2.1.1
         version: 2.1.1
@@ -105,9 +102,6 @@ packages:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
     hasBin: true
-
-  jsonschema@1.4.1:
-    resolution: {integrity: sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==}
 
   lru-cache@10.2.2:
     resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
@@ -271,8 +265,6 @@ snapshots:
       '@pkgjs/parseargs': 0.11.0
 
   json5@2.2.3: {}
-
-  jsonschema@1.4.1: {}
 
   lru-cache@10.2.2: {}
 
