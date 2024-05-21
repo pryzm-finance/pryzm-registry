@@ -5,21 +5,25 @@ export interface RelayPath
 {
     /**
      * The name of the chain on the other side of the relay path. It should be a valid chain name defined on chain-registry.
+     * @minLength 1
      */
     chain: string;
 
     /**
      * The address of the relayer on Pryzm chain.
+     * @pattern ^pryzm[a-zA-Z0-9]+$
      */
     pryzm_address: string;
 
     /**
      * The address of the relayer on the other chain.
+     * @minLength 1
      */
     chain_address: string;
 
     /**
      * The software used for relaying (hermes, rly, ...).
+     * @minLength 1
      */
     relayer: string;
 }
@@ -31,6 +35,7 @@ export interface Relayer
 {
     /**
      * The name of the relayer provider.
+     * @minLength 1
      */
     name: string;
 

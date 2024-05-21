@@ -8,18 +8,22 @@
       "properties": {
         "chain": {
           "description": "The name of the chain on the other side of the relay path. It should be a valid chain name defined on chain-registry.",
+          "minLength": 1,
           "type": "string"
         },
         "chain_address": {
           "description": "The address of the relayer on the other chain.",
+          "minLength": 1,
           "type": "string"
         },
         "pryzm_address": {
           "description": "The address of the relayer on Pryzm chain.",
+          "pattern": "^pryzm[a-zA-Z0-9]+$",
           "type": "string"
         },
         "relayer": {
           "description": "The software used for relaying (hermes, rly, ...).",
+          "minLength": 1,
           "type": "string"
         }
       },
@@ -41,6 +45,7 @@
         },
         "name": {
           "description": "The name of the relayer provider.",
+          "minLength": 1,
           "type": "string"
         },
         "paths": {
@@ -48,6 +53,7 @@
           "items": {
             "$ref": "#/definitions/RelayPath"
           },
+          "minItems": 1,
           "type": "array"
         },
         "website": {
