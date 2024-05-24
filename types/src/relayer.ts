@@ -25,7 +25,7 @@ export interface RelayPath
      * The software used for relaying (hermes, rly, ...).
      * @minLength 1
      */
-    relayer: string;
+    relayer_software: string;
 }
 
 /**
@@ -33,6 +33,8 @@ export interface RelayPath
  */
 export interface Relayer
 {
+    $schema: string;
+
     /**
      * The name of the relayer provider.
      * @minLength 1
@@ -54,8 +56,3 @@ export interface Relayer
      */
     paths: [RelayPath, ...RelayPath[]];
 }
-
-/**
- * List of relayers on Pryzm.
- */
-export type Relayers = Relayer[];
