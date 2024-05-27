@@ -1,0 +1,92 @@
+{
+  "$schema": "../schemas/relayer.schema.json",
+  "name": "PRYZM",
+  "website": "https://pryzm.zone",
+  "contact": "hello@pryzm.zone",
+  "paths": [
+    {
+      "chain": "cosmoshub",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "cosmos1xj37ewhke0l2evzlf2czh6vcunk8hr9revsrc4",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "cosmoshub",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "cosmos1cla57nqkvv9c76744lkyzrzael536gxf0khrpf",
+      "relayer_software": "rly"
+    },
+    {
+      "chain": "injective",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "inj10myckmwrhdyad0l6yc770u96u767nnqjkxd8xv",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "injective",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "inj1vgn47juv5qjnan5dds7vmavtphljxu2gnmjqgf",
+      "relayer_software": "rly"
+    },
+    {
+      "chain": "terra2",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "terra1xj37ewhke0l2evzlf2czh6vcunk8hr9rlg2r64",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "terra2",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "terra1leump6zk633frezulayg6dhy6gpkz7tkytzu4k",
+      "relayer_software": "rly"
+    },
+    {
+      "chain": "osmosis",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "osmo1xj37ewhke0l2evzlf2czh6vcunk8hr9r3hrnw8",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "osmosis",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "osmo1cla57nqkvv9c76744lkyzrzael536gxf8dynhm",
+      "relayer_software": "rly"
+    },
+    {
+      "chain": "noble",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "noble1xj37ewhke0l2evzlf2czh6vcunk8hr9r309tqm",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "noble",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "noble1cla57nqkvv9c76744lkyzrzael536gxf84zte8",
+      "relayer_software": "rly"
+    },
+    {
+      "chain": "celestia",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "celestia1xj37ewhke0l2evzlf2czh6vcunk8hr9rgxpnzc",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "celestia",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "celestia1cla57nqkvv9c76744lkyzrzael536gxf7uxnmy",
+      "relayer_software": "rly"
+    },
+    {
+      "chain": "axelar",
+      "pryzm_address": "pryzm1xj37ewhke0l2evzlf2czh6vcunk8hr9rpu8yxx",
+      "chain_address": "axelar1xj37ewhke0l2evzlf2czh6vcunk8hr9razxtn5",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "axelar",
+      "pryzm_address": "pryzm1cla57nqkvv9c76744lkyzrzael536gxfhxqyl6",
+      "chain_address": "axelar1cla57nqkvv9c76744lkyzrzael536gxftcpt2g",
+      "relayer_software": "rly"
+    }
+  ]
+}
