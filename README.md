@@ -5,10 +5,11 @@ cosmos ecosystem. The following information are stored in this repository:
 
 ### Relayers
 Contains information about the relayers running between Pryzm and other chains. If you are running a relayer, please
-open a PR and add your information to the [ibc/relayers.json](./ibc/relayers.json). Note that this file must comply to
-the json schema defined in [schemas/relayers.schema.json](./schemas/relayers.schema.json).
+open a PR and add your information to the [relayers](./relayers) folder. Note that the file must comply to the json
+schema defined in [schemas/relayer.schema.json](./schemas/relayer.schema.json).
 
-You can copy this sample, edit the properties and add it to the list of relayers:
+You can copy [the template](./relayers/_template.json), edit the properties and add it to the relayers folder with your
+relayer name:
 ```json
 {
     "name": "Provider Name",

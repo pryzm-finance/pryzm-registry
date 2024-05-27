@@ -12,4 +12,4 @@ jobs:
       - name: Install jsonschema cmd
         run: go install github.com/santhosh-tekuri/jsonschema/cmd/jv@latest
       - name: Validate relayers.json
-        run: jv schemas/relayers.schema.json ibc/relayers.json
+        run: jv schemas/relayer.schema.json relayers/*.json

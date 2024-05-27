@@ -4,7 +4,7 @@
   "description": "The types and schema used in pryzm-registry",
   "main": "index.ts",
   "scripts": {
-    "generate": "ts-json-schema-generator --path src/relayers.ts --type 'Relayers' -o ../schemas/relayers.schema.json -i 'https://pryzm.zone/registry/relayers.schema.json' --no-top-ref"
+    "generate": "ts-json-schema-generator --path src/relayer.ts --type 'Relayer' -o ../schemas/relayer.schema.json -i 'https://pryzm.zone/registry/relayer.schema.json' --no-top-ref"
   },
   "dependencies": {
     "ts-json-schema-generator": "^2.1.1"
