@@ -1,5 +1,5 @@
 {
-  "$schema": "../schemas/relayer_software.schema.json",
+  "$schema": "../schemas/relayer.schema.json",
   "name": "PRYZM",
   "website": "https://pryzm.zone",
   "contact": "hello@pryzm.zone",
