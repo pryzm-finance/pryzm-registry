@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/relayer.schema.json",
+  "name": "PFC",
+  "website": "https://pfc.zone",
+  "contact": "pfc@pfc.zone",
+  "paths": [
+    {
+      "chain": "cosmoshub",
+      "pryzm_address": "pryzm1wqp8yslqh2mdvxzgljsde8wu6nyjp4qywy0lsy",
+      "chain_address": "cosmos1wqp8yslqh2mdvxzgljsde8wu6nyjp4qyk5ccwh",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "injective",
+      "pryzm_address": "pryzm1wqp8yslqh2mdvxzgljsde8wu6nyjp4qywy0lsy",
+      "chain_address": "inj12qsz2ks3c88knmdg70naeu8xap6reeex9vyjg6",
+      "relayer_software": "hermes"
+    }
+  ]
+}
