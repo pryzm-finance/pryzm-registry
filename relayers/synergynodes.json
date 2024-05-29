@@ -1,0 +1,38 @@
+{
+  "$schema": "../schemas/relayer.schema.json",
+  "name": "Synergy Nodes",
+  "website": "https://www.synergynodes.com",
+  "contact": "contact@synergynodes.com",
+  "paths": [
+    {
+      "chain": "axelar",
+      "pryzm_address": "pryzm1hhzf9u376mg8zcuvx3jsls7t805kzcrsemen9d",
+      "chain_address": "axelar1hhzf9u376mg8zcuvx3jsls7t805kzcrs99cusl",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "cosmoshub",
+      "pryzm_address": "pryzm1hhzf9u376mg8zcuvx3jsls7t805kzcrsemen9d",
+      "chain_address": "cosmos1hhzf9u376mg8zcuvx3jsls7t805kzcrsptw5m7",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "injective",
+      "pryzm_address": "pryzm1hhzf9u376mg8zcuvx3jsls7t805kzcrsemen9d",
+      "chain_address": "inj1hhzf9u376mg8zcuvx3jsls7t805kzcrstzesfx",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "osmosis",
+      "pryzm_address": "pryzm1hhzf9u376mg8zcuvx3jsls7t805kzcrsemen9d",
+      "chain_address": "osmo1hhzf9u376mg8zcuvx3jsls7t805kzcrsfsaydv",
+      "relayer_software": "hermes"
+    },
+    {
+      "chain": "terra2",
+      "pryzm_address": "pryzm1hhzf9u376mg8zcuvx3jsls7t805kzcrsemen9d",
+      "chain_address": "terra1hhzf9u376mg8zcuvx3jsls7t805kzcrs8055e7",
+      "relayer_software": "hermes"
+    } 
+  ]
+}
